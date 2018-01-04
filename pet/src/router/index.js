@@ -9,6 +9,7 @@ import cart from '../pages/cart/cart.vue'
 
 Vue.use(VueRouter)
 
+
 export default new VueRouter({
   routes:[
     {
