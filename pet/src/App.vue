@@ -1,26 +1,29 @@
 <template>
     <div>
-      <pet-header />
       <div class="tab">
-        <div class="tab-item">
-          <router-link to="/main">
-            <img src="./common/images/1.png">
-          </router-link>
+        <div class="tab-son">
+          <div class="tab-item">
+            <router-link to="/main">
+            </router-link>
+          </div>
         </div>
-        <div class="tab-item">
-          <router-link to="/category">
-            <img src="./pages/category/classifiy.png">
-          </router-link>
+        <div class="tab-son">
+          <div class="tab-item1">
+            <router-link to="/category">
+            </router-link>
+          </div>
         </div>
-        <div class="tab-item">
-          <router-link to="/cart">
-            <img src="./pages/cart/cart.png">
-          </router-link>
+        <div class="tab-son">
+          <div class="tab-item2">
+            <router-link to="/cart">
+            </router-link>
+          </div>
         </div>
-        <div class="tab-item">
-          <router-link to="/UserCenter">
-            <img src="./pages/UserCenter/UserCenter.png">
-          </router-link>
+        <div class="tab-son">
+          <div class="tab-item3">
+            <router-link to="/UserCenter">
+            </router-link>
+          </div>
         </div>
       </div>
 
@@ -29,42 +32,62 @@
 </template>
 
 <script>
-  import header from './components/header/header.vue'
-
-
-
-  export default {
-    components: {
-      'pet-header':header,
-
-
-    }
-  }
+  export default {}
 
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
   .tab
-    position fixed
-    bottom 0
-    left:0
-    width:100%
-    height: 45px
-    .tab-item
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 103;
+    border-top: 1px solid #e7e7e7;
+    background-color white
+    .tab-son
       float: left;
       width:25%
-      height: 55px
-      text-align center
-      line-height 55px
-
-      .router-link-active
-        color #ff0000
-
+      height:100%
+      .tab-item a,.tab-item1 a,.tab-item2 a,.tab-item3 a
+        display: block
+        background: url(./common/images/img.png) no-repeat;
         background-size: 234px 163px;
-        margin: 0 auto;
-        height: 40px;
-        width: 42px;
+        margin:0 auto
+        width: 42px
+        height: 40px
         margin-top: 2px;
+
+      .tab-item1  a
+        background-position: 0 -40px;
+      .tab-item a
+        background-position: -85px 0;
+      .tab-item2  a
+        background-position: -85px -81px;
+      .tab-item3  a
+        background-position: -85px -122px;
+
+
+
+        /*.router-link-active
+          color #ff0000
+          display: block
+          background-position: 0 0;
+          background-position: -85px 0;
+          background: url(./common/images/img.png) no-repeat;
+          background-size: 234px 163px;
+          margin: 0 auto;
+          height: 40px;
+          width: 42px;
+          margin-top: 2px;*/
+
+
+
+
+
+
 
 
 

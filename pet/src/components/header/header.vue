@@ -13,130 +13,93 @@
             </div>
           </div>
         </div>
+        <div class="indexheader">
+        </div>
       </div>
-      <div class="indexheader">
-        <div class="indexnavcon">
-          <div class="headerbox float-div">
-            <div class="main">
-              <div class="clearfix pt5 pl10 pr10 pb5">
-                <div class="epet-search bgf">
-                  <div class="fl rela ft14 location">
-                    <a href="https://wap.epet.com/place.html?pet_type=dog&amp;fw=0">
-                      <span class="catordog c89">狗狗站</span>
-                      <span class="c89">|</span>
-                      <span data-name="my-place" class="myposition c89 ft13">重庆</span>
-                      <i></i>
-                    </a></div>
-                  <p class="search-text">
-                    <a href="https://wap.epet.com/search.html?pet_type=dog&amp;fw=0">
-                      <input type="search" placeholder="搜索商品和品牌" disabled="disabled">
-                      <span class="eico serach-ico"></span>
-                    </a>
-                  </p>
-                  <a href="https://wap.epet.com/wappms/pms.html?fw=0" class="epet-category">
-                    <img src="//static.epetbar.com/static_web/wap/src/images/mydope.png">
-                  </a>
-                </div>
-              </div>
-              <div class="find_nav">
-                <div class="find_nav_left dscroll">
-                  <div class="find_nav_list dscroll-div" style="width: 140%;">
-                    <ul class="dscroll-ul">
-                      <li data-type="0" data-shareid="1" class="dscroll-li on" style="width: 74.6429px;">
-                        <a href="https://wap.epet.com/main.html?menu_param=0&amp;pet_type=dog&amp;fw=0">
-                          <span class="rela">
-                            <span>首页</span>
-                            <i></i></span>
-                        </a>
-                      </li>
-                      <li data-type="" data-shareid="0" class="dscroll-li" style="width: 74.6429px;">
-                        <a href="https://wap.epet.com/clothmall/main.html?pet_type=dog&amp;fw=0">
-                          <span class="rela">
-                            <span>服饰城</span>
-                            <i></i>
-                          </span>
-                        </a>
-                      </li>
-                      <li data-type="123" data-shareid="372" class="dscroll-li" style="width: 74.6429px;"><a href="https://wap.epet.com/main.html?menu_param=123&amp;pet_type=dog&amp;is_single=1&amp;fw=0">
-                        <span class="rela">
-                          <span>狗狗主粮</span>
-                          <i></i>
-                        </span>
-                      </a>
-                      </li>
-                      <li data-type="125" data-shareid="374" class="dscroll-li" style="width: 74.6429px;">
-                        <a href="https://wap.epet.com/main.html?menu_param=125&amp;pet_type=dog&amp;is_single=1&amp;fw=0">
-                          <span class="rela">
-                            <span>医疗保健</span>
-                            <i></i>
-                          </span>
-                        </a>
-                      </li>
-                      <li data-type="131" data-shareid="375" class="dscroll-li" style="width: 74.6429px;">
-                        <a href="https://wap.epet.com/main.html?menu_param=131&amp;pet_type=dog&amp;is_single=1&amp;fw=0">
-                          <span class="rela">
-                            <span>零食玩具</span>
-                            <i></i>
-                          </span>
-                        </a>
-                      </li>
-                      <li data-type="134" data-shareid="0" class="dscroll-li" style="width: 74.6429px;">
-                        <a href="https://wap.epet.com/main.html?menu_param=134&amp;pet_type=dog&amp;is_single=1&amp;fw=0">
-                          <span class="rela">
-                            <span>日用外出</span>
-                            <i></i>
-                          </span>
-                        </a>
-                      </li>
-                      <li data-type="140" data-shareid="371" class="dscroll-li" style="width: 74.6429px;">
-                        <a href="https://wap.epet.com/main.html?menu_param=140&amp;pet_type=dog&amp;is_single=1&amp;fw=0">
-                          <span class="rela">
-                            <span>美容香波</span>
-                            <i></i>
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <div class="outWrap">
+        <div class="bottom-wrap">
+          <a href="#">
+            <span class="dogswitch c89">狗狗站</span>
+            <span class="fenge c89">|</span>
+            <span class="place c89">重庆</span>
+            <i></i>
+          </a>
+        </div>
+        <p class="search-text">
+          <a href="https://wap.epet.com/search.html?pet_type=dog&amp;fw=0">
+            <input type="search" placeholder="搜索商品和品牌" disabled="disabled">
+            <span class="eico serach-ico"></span>
+          </a>
+        </p>
+        <a href="https://wap.epet.com/wappms/pms.html?fw=0" class="epet-category">
+          <img src="//static.epetbar.com/static_web/wap/src/images/mydope.png">
+        </a>
+
+
+      </div>
+      <div class="find_nav">
+        <div class="find_nav_left dscroll">
+          <div class="find_nav_list dscroll-div" style="width: 140%;">
+            <ul class="dscroll-ul">
+              <li data-type="0" data-shareid="1" class="dscroll-li on" style="width: 74.6429px;">
+                <a href="https://wap.epet.com/main.html?menu_param=0&amp;pet_type=dog&amp;fw=0"><!---->
+                  <span class="rela">
+                    <span>首页</span>
+                    <i></i>
+                  </span>
+                </a>
+              </li>
+              <li data-type="" data-shareid="0" class="dscroll-li" style="width: 74.6429px;">
+                <a href="https://wap.epet.com/clothmall/main.html?pet_type=dog&amp;fw=0"><!---->
+                  <span>
+                    <span>服饰城</span>
+                  <i></i>
+                </span>
+                </a>
+              </li>
+              <li data-type="123" data-shareid="372" class="dscroll-li" style="width: 74.6429px;">
+                <a href="https://wap.epet.com/main.html?menu_param=123&amp;pet_type=dog&amp;is_single=1&amp;fw=0"><!---->
+                  <span>
+                    <span>狗狗主粮</span>
+                  <i></i>
+                </span>
+                </a>
+              </li>
+              <li data-type="125" data-shareid="374" class="dscroll-li" style="width: 74.6429px;">
+                <a href="https://wap.epet.com/main.html?menu_param=125&amp;pet_type=dog&amp;is_single=1&amp;fw=0"><!---->
+                  <span>
+                    <span>医疗保健</span>
+                    <i></i>
+                  </span>
+                </a>
+              </li>
+              <li data-type="131" data-shareid="375" class="dscroll-li" style="width: 74.6429px;">
+                <a href="https://wap.epet.com/main.html?menu_param=131&amp;pet_type=dog&amp;is_single=1&amp;fw=0"><!---->
+                  <span>
+                    <span>零食玩具</span>
+                    <i></i>
+                  </span>
+                </a>
+              </li>
+              <li data-type="134" data-shareid="0" class="dscroll-li" style="width: 74.6429px;">
+                <a href="https://wap.epet.com/main.html?menu_param=134&amp;pet_type=dog&amp;is_single=1&amp;fw=0"><!---->
+                  <span>
+                    <span>日用外出</span>
+                    <i></i>
+                  </span>
+                </a>
+              </li>
+              <li data-type="140" data-shareid="371" class="dscroll-li" style="width: 74.6429px;">
+                <a href="https://wap.epet.com/main.html?menu_param=140&amp;pet_type=dog&amp;is_single=1&amp;fw=0"><!---->
+                  <span>
+                    <span>美容香波</span>
+                    <i></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <!--<div class="switchtype">-->
-          <!--<div type="dog" class="go-dog pointer dog"></div>-->
-          <!--<div class="changepop bgfff">-->
-            <!--<div class="cartc-bg db">-->
-
-            <!--</div> <div class="cartc-box rela overflow" style="overflow: hidden; display: block;">-->
-            <!--<div class="main">-->
-              <!--<p class="ftc c999 ft16 rela">-->
-                <!--DOG<b class="b-line c000 ft12">▁</b>-->
-              <!--</p>-->
-              <!--<p class="ftc mt20 ft20 c666">亲爱的小主</p>-->
-              <!--<p class="ftc c333 ft20">您即将进入<span>狗狗站</span>-->
-              <!--</p> <ul class="clearfix ftc change-ul">-->
-              <!--<li type="cat" class="fl pet1 cat">-->
-                <!--<img src="//static.epetbar.com/static_web/wap/src/images/change-cat.png">-->
-                <!--<div class="pet1name">猫猫站</div>-->
-              <!--</li>-->
-              <!--<li type="dog" class="fl pet2 mainpet rela dog">-->
-                <!--<img src="//static.epetbar.com/static_web/wap/src/images/change-dog1.png">-->
-                <!--<div>狗狗站</div> <b class="current-line c000 ft12">▁</b>-->
-                <!--<a href="javascript:;" class="cfff ft14 ftc once-into mt15 dib">立即进入</a>-->
-              <!--</li>-->
-              <!--<li type="fish" class="fl pet3 fish">-->
-                <!--<img src="//static.epetbar.com/static_web/wap/src/images/change-fish.png">-->
-                <!--<div class="pet3name">水族站</div>-->
-              <!--</li>-->
-            <!--</ul>-->
-            <!--</div>-->
-          <!--</div>-->
-            <!--<a href="javascript:;" class="cartc-close afff ft20 ftc c666">-->
-              <!--<img src="//static.epetbar.com/static_web/wap/src/images/close2.png">-->
-            <!--</a>-->
-          <!--</div>-->
-        <!--</div>-->
       </div>
     </div>
 
@@ -149,7 +112,10 @@
 
 <style lang="stylus" rel="stylesheet/stylus">
   .header
-    position relative
+    position fixed
+      top:0
+      left:0
+
     width: 375px
     overflow hidden
     .wrap
@@ -166,9 +132,7 @@
         z-index: 102
         width:100%
         .rela
-          position fixed
-          top:0
-          left:0
+
           .appdowimg
             position relative
             a
@@ -186,6 +150,121 @@
                 width: 18.75px
                 height: 18.75px
 
+
+
+    .indexheader
+      .indexnavcon
+        height:86px
+        .headerbox
+          float: left;
+          .main
+            max-width: 640px;
+            margin: auto;
+            .clearfix pt5 pl10 pr10 pb5
+              .epet-search bgf
+                padding: 8px 0;
+                background: #fff;
+                text-align: center;
+                display: -webkit-box;
+                -webkit-box-align: center;
+                display: -moz-box;
+                -moz-box-align: center;
+                /*width: 100%;*/
+            .find_nav
+              float left
+              width: 100%;
+              height: 35px;
+              min-width: 320px;
+
+
+    .outWrap
+      overflow: hidden
+      padding: 10px 5px
+      .bottom-wrap
+        margin-right 20px
+        margin-top: 3px;
+        float: left;
+        a
+          -webkit-tap-highlight-color: rgba(0,0,0,0);
+          .c89
+            color: #898989
+            font-size 14px
+          i
+            position: absolute;
+            top: 75px;
+            right: 276px;
+            border-width: 4px;
+            font-size: 0;
+            line-height: 0;
+            border-style: solid solid dotted;
+            border-color: #898989 transparent transparent;
+      .search-text
+        width: 220px;
+        height: 25px;
+        float: left;
+        a
+          color: #333;
+          -webkit-box-flex: 1
+          width: 100%
+          height: 100%
+          display: block
+          overflow: hidden;
+
+          input
+            width: 100%
+            height: 100%
+            border: 0;
+            background: #e9e9e9;
+            border-radius: 4px;
+            color: #bcbcbc;
+            text-indent: 10px;
+            font-size: 13px;
+            outline: 0;
+
+
+      a
+        display: block
+        img
+          width: 25px;
+          margin-left: 10px;
+          vertical-align: middle;
+          float: right;
+    .find_nav
+      width: 100%;
+      height: 35px;
+      min-width: 320px;
+      .dscroll
+        overflow-x: auto;
+        overflow-y: hidden;
+        .dscroll-ul
+          white-space: nowrap;
+          display: flex;
+          list-style: none;
+          li
+            width: 25%;
+            float: left;
+            list-style: none;
+            a
+              display: block;
+              width: 100%;
+              height: 100%;
+              line-height: 36px;
+              font-size: 14px;
+              text-align: center;
+              color: #666;
+
+
+              .rela
+                position: relative;
+                color: #459d36;
+                display: inline-block;
+                i
+                  position: absolute;
+                  bottom: 1px;
+                  left: -10%;
+                  width: 120%;
+                  height: 2px;
+                  background: #459d36;
 
 
 </style>
