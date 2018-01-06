@@ -91,8 +91,8 @@
                       <img src="./qiang01.jpg">
                     </li>
                     <div>
-                      <span>¥</span>
-                      <span>2.48</span>
+                      <span class="m">¥</span>
+                      <span class="mub">2.48</span>
                     </div>
                     <p>省￥22.32</p>
                   </a>
@@ -102,9 +102,9 @@
                     <li class="swiper-items">
                       <img src="./qiang02.jpg">
                     </li>
-                    <div>
-                      <span>¥</span>
-                      <span>2.48</span>
+                    <div class="span_wrap">
+                      <span class="m">¥</span>
+                      <span class="mub">2.48</span>
                     </div>
                     <p>省￥22.32</p>
                   </a>
@@ -115,8 +115,8 @@
                       <img src="./qiang03.jpg">
                     </li>
                     <div>
-                      <span>¥</span>
-                      <span>2.48</span>
+                      <span class="m">¥</span>
+                      <span class="mub">2.48</span>
                     </div>
                     <p>省￥22.32</p>
                   </a>
@@ -127,8 +127,8 @@
                       <img src="./qiang04.jpg">
                     </li>
                     <div>
-                      <span>¥</span>
-                      <span>2.48</span>
+                      <span class="m">¥</span>
+                      <span class="mub">2.48</span>
                     </div>
                     <p>省￥22.32</p>
                   </a>
@@ -139,8 +139,8 @@
                       <img src="./qiang05.jpg">
                     </li>
                     <div>
-                      <span>¥</span>
-                      <span>2.48</span>
+                      <span class="m">¥</span>
+                      <span class="mub">2.48</span>
                     </div>
                     <p>省￥22.32</p>
                   </a>
@@ -151,8 +151,8 @@
                       <img src="./qiang06.jpg">
                     </li>
                     <div>
-                      <span>¥</span>
-                      <span>2.48</span>
+                      <span class="m">¥</span>
+                      <span class="mub">2.48</span>
                     </div>
                     <p>省￥22.32</p>
                   </a>
@@ -163,8 +163,8 @@
                       <img src="./qiang07.jpg">
                     </li>
                     <div>
-                      <span>¥</span>
-                      <span>2.48</span>
+                      <span class="m">¥</span>
+                      <span class="mub">2.48</span>
                     </div>
                     <p>省￥22.32</p>
                   </a>
@@ -301,29 +301,38 @@
           .swiper-wrapper
             height: 100%;
             position: relative;
+            overflow hidden
+            white-space:nowrap;
             .swiper-wrapper2
               width: 98.5714px;
+              height: 100%;
               margin-right: 10px;
+              display:inline-block;
+              span
+                font-size 12px
+
+
               a
                 display: block
-                width:100%
+                width: 85px
                 height:100%
                 margin: 0 .5em;
                 overflow: hidden;
                 .swiper-items
-                  float: left;
-                  width:100%
-                  height:100%
-                  position: relative;
-
-
+                  width: 85px
+                  height:84px
                   img
                     width:100%
                     height:100%
-                    top: 0;
-                    left: 0;
-                    position: absolute;
                     display: block;
+                .span_wrap
+                  margin-top: 5px;
+                  text-align: center;
+
+  /*color: red;*/
+
+
+
 
 
 

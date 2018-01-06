@@ -3,8 +3,11 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import category from '../pages/category/category.vue'
 import main from '../pages/main/main.vue'
-import UserCenter from '../pages/UserCenter/UserCenter.vue'
+import usercenter from '../pages/usercenter/usercenter.vue'
 import cart from '../pages/cart/cart.vue'
+import classifiy from '../components/classifiy/classifiy.vue'
+import brand from '../components/brand/brand.vue'
+import search from '../components/search/search.vue'
 
 
 Vue.use(VueRouter)
@@ -18,15 +21,34 @@ export default new VueRouter({
     },
     {
       path: '/category',
-      component: category
+      component: category,
+      children:[
+        {
+          path: '',
+          redirect: ' '
+        },
+        {
+          path:'classifiy',
+          component:classifiy
+        },
+        {
+          path:'brand',
+          component:brand
+        },
+        {
+          path:'search',
+          component:search
+        },
+
+      ]
     },
     {
       path: '/main',
       component: main
     },
     {
-      path: '/UserCenter',
-      component: UserCenter
+      path: '/usercenter',
+      component: usercenter
     },
     {
       path: '/cart',

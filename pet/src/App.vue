@@ -21,7 +21,7 @@
         </div>
         <div class="tab-son">
           <div class="tab-item3">
-            <router-link to="/UserCenter">
+            <router-link to="/usercenter">
             </router-link>
           </div>
         </div>
@@ -32,7 +32,21 @@
 </template>
 
 <script>
-  export default {}
+  import axios from 'axios'
+  export default {
+    mouted (){
+//      this.$http.get('./api/menus')
+//        .then(response => {
+//          const result = response.data
+//          console.log('vue-resource',result);
+//        })
+      axios.$http.get('./api2/menus')
+        .then(response => {
+          const result = response.data
+          console.log('axios',result);
+        })
+    }
+  }
 
 </script>
 

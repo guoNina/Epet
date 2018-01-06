@@ -115,7 +115,6 @@
     position fixed
       top:0
       left:0
-
     width: 375px
     overflow hidden
     .wrap
@@ -127,7 +126,6 @@
         position relative
         max-width 640px
         margin 0 auto
-        background rgba(61,61,61,1)
         color #fff
         z-index: 102
         width:100%
@@ -136,6 +134,7 @@
           .appdowimg
             position relative
             a
+              overflow: hidden;
               img
                 width:100%
             .closebtn
