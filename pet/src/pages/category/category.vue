@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="content_wrap">
+
       <ul class="router_wrap">
         <div class="left_wrap">
           <li>
@@ -24,13 +25,16 @@
         </div>
 
       </ul>
+      <router-view />
     </div>
 
-    <router-view />
+
+
   </div>
 </template>
 
 <script>
+
   export default {}
 </script>
 

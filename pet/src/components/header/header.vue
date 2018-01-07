@@ -1,6 +1,7 @@
 <template>
     <div class="header">
       <div class="wrap">
+        <!--{{menus}}-->
         <div class="overflow xiazaiApp">
           <div class="overflow rela">
             <div class="appdowimg">
@@ -106,7 +107,16 @@
 </template>
 
 <script>
-  export default {}
+  import {mapState} from 'vuex'
+  export default {
+    mounted(){
+      this.$store.dispatch('requestMenus')
+    },
+    computed:{
+      ...mapState(['menus'])
+    }
+
+  }
 
 </script>
 

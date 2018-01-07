@@ -1,5 +1,5 @@
 export default {
-  menus:{},
-  datas:{},
+  menus:[],
+  datas:[],
 
 }

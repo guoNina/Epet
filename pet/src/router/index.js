@@ -23,10 +23,10 @@ export default new VueRouter({
       path: '/category',
       component: category,
       children:[
-        {
+        /*{
           path: '',
-          redirect: ' '
-        },
+          redirect: ''
+        },*/
         {
           path:'classifiy',
           component:classifiy

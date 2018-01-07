@@ -1,6 +1,7 @@
 <template>
   <div>
     <pet-header />
+    {{datas}}
     <div class="main-wrap">
       <div class="swipe-wrap">
         <mt-swipe :auto="2000">
@@ -173,6 +174,33 @@
           </div>
         </div>
       </div>
+      <div class="mask">
+        <div class="mask_wrap">
+          <div class="mask_main_wrap">
+            <div class="mask_main">
+              <p class="dog">
+                DOG
+                <b>_</b>
+                <span>亲爱的小主</span>
+              </p>
+              <p class="welcome">您即将进入
+                <span>狗狗站</span>
+              </p>
+              <ul class="change_ul">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <div class="mask_footer">
+              <a href="#">
+                <img src="./close2.png">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
       <br>
       <br>
       <br>
@@ -193,9 +221,16 @@
 
 <script>
   import header from '../../components/header/header.vue'
+  import {mapState} from 'vuex'
   export default {
     components: {
       'pet-header':header,
+    },
+    mounted(){
+      this.$store.dispatch('requestDatas')
+    },
+    computed:{
+      ...mapState(['datas'])
     }
   }
 
@@ -329,11 +364,79 @@
                   margin-top: 5px;
                   text-align: center;
 
-  /*color: red;*/
+    .mask
+      display: none
+      transition: all .4s linear 0s;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      left: 0;
+      height: 100%;
+      z-index: 104;
+      background: #fff;
+      .mask_wrap
+        display: block;
+        top: 106.5px;
+        left: 0px;
+        width: 100%;
+        position: fixed;
+        border-radius: 5px;
+        z-index: 102;
+        overflow: hidden!important;
+        .mask_main_wrap
+          .mask_main
+            max-width: 640px;
+            margin: auto;
+            .dog
+              color: #999;
+              position: relative;
+              font-size: 16px;
+              text-align: center;
+              b
+                width: 100%;
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                text-align: center;
+                color: #000;
+                font-size: 12px;
+              span
+                display block
+                font-size: 16px;
+                margin-top: 20px;
+                text-align: center;
+                color: #666;
 
-
-
-
+            .welcome
+              color: #333;
+              font-size: 20px;
+              text-align: center;
+              display block
+              margin-top 15px
+          .mask_footer
+            a
+              overflow: hidden;
+              color: #7e8c8d;
+              width: 100%;
+              height: 40px;
+              line-height: 50px;
+              position: fixed;
+              bottom: 20px;
+              left: 0;
+              display: block;
+              border-top: 1px solid #e7e7e7;
+              z-index: 103;
+              img
+                display: block
+                width: 23px;
+                line-height 23px
+                vertical-align: middle;
+                height:23px
+                text-align center
+                position: absolute
+                right 176.1px
+                bottom:0
+                /*z-index: 104;*/
 
 
 </style>

@@ -34,17 +34,17 @@
 <script>
   import axios from 'axios'
   export default {
-    mouted (){
-//      this.$http.get('./api/menus')
-//        .then(response => {
-//          const result = response.data
-//          console.log('vue-resource',result);
-//        })
-      axios.$http.get('./api2/menus')
+    mounted (){
+   /*   this.$http.get('./api/menus')
+        .then(response => {
+          const result = response.data
+          console.log('vue-resource',result);
+        })*/
+/*      axios.$http.get('./api2/menus')
         .then(response => {
           const result = response.data
           console.log('axios',result);
-        })
+        })*/
     }
   }
 
