@@ -9,13 +9,15 @@ import {
 } from './mutations-types'
 
 export default {
-  requestMenus({commit}){
+  requestMenus({commit},cb){
     requestMenus().then(response => {
       const result = response.data
       /*debugger*/
       if(result.code===0){
         const menus = result.data
         commit(RECEIVE_MENUS,{menus})
+
+        cb && cb()
       }
     })
   },

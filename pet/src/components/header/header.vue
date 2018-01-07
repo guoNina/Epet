@@ -42,62 +42,15 @@
         <div class="find_nav_left dscroll">
           <div class="find_nav_list dscroll-div" style="width: 140%;">
             <ul class="dscroll-ul">
-              <li data-type="0" data-shareid="1" class="dscroll-li on" style="width: 74.6429px;">
-                <a href="https://wap.epet.com/main.html?menu_param=0&amp;pet_type=dog&amp;fw=0"><!---->
+              <li data-type="0" data-shareid="1" class="dscroll-li on" style="width: 74.6429px;" v-for="(menu, index) in menus" :key="index">
+                <a href="#"><!---->
                   <span class="rela">
-                    <span>首页</span>
+                    <span>{{menu.menu_name}}</span>
                     <i></i>
                   </span>
                 </a>
               </li>
-              <li data-type="" data-shareid="0" class="dscroll-li" style="width: 74.6429px;">
-                <a href="https://wap.epet.com/clothmall/main.html?pet_type=dog&amp;fw=0"><!---->
-                  <span>
-                    <span>服饰城</span>
-                  <i></i>
-                </span>
-                </a>
-              </li>
-              <li data-type="123" data-shareid="372" class="dscroll-li" style="width: 74.6429px;">
-                <a href="https://wap.epet.com/main.html?menu_param=123&amp;pet_type=dog&amp;is_single=1&amp;fw=0"><!---->
-                  <span>
-                    <span>狗狗主粮</span>
-                  <i></i>
-                </span>
-                </a>
-              </li>
-              <li data-type="125" data-shareid="374" class="dscroll-li" style="width: 74.6429px;">
-                <a href="https://wap.epet.com/main.html?menu_param=125&amp;pet_type=dog&amp;is_single=1&amp;fw=0"><!---->
-                  <span>
-                    <span>医疗保健</span>
-                    <i></i>
-                  </span>
-                </a>
-              </li>
-              <li data-type="131" data-shareid="375" class="dscroll-li" style="width: 74.6429px;">
-                <a href="https://wap.epet.com/main.html?menu_param=131&amp;pet_type=dog&amp;is_single=1&amp;fw=0"><!---->
-                  <span>
-                    <span>零食玩具</span>
-                    <i></i>
-                  </span>
-                </a>
-              </li>
-              <li data-type="134" data-shareid="0" class="dscroll-li" style="width: 74.6429px;">
-                <a href="https://wap.epet.com/main.html?menu_param=134&amp;pet_type=dog&amp;is_single=1&amp;fw=0"><!---->
-                  <span>
-                    <span>日用外出</span>
-                    <i></i>
-                  </span>
-                </a>
-              </li>
-              <li data-type="140" data-shareid="371" class="dscroll-li" style="width: 74.6429px;">
-                <a href="https://wap.epet.com/main.html?menu_param=140&amp;pet_type=dog&amp;is_single=1&amp;fw=0"><!---->
-                  <span>
-                    <span>美容香波</span>
-                    <i></i>
-                  </span>
-                </a>
-              </li>
+
             </ul>
           </div>
         </div>

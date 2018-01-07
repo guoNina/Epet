@@ -1,90 +1,91 @@
 <template>
   <div>
     <pet-header />
-    {{datas}}
-    <div class="main-wrap">
-      <div class="swipe-wrap">
-        <mt-swipe :auto="2000">
-          <mt-swipe-item><img src="./001.jpg"></mt-swipe-item>
-          <mt-swipe-item><img src="./002.jpg"></mt-swipe-item>
-          <mt-swipe-item><img src="./003.jpg"></mt-swipe-item>
-          <mt-swipe-item><img src="./004.jpg"></mt-swipe-item>
-          <mt-swipe-item><img src="./005.jpg"></mt-swipe-item>
-          <mt-swipe-item><img src="./006.jpg"></mt-swipe-item>
-        </mt-swipe>
-      </div>
-      <div class="banner_item"><!----> <!----></div>
-      <div class="list-wrap">
-        <ul class="list">
-          <li class="list-item">
-            <img src="./echongtuan.jpg">
-          </li>
-          <li class="list-item">
-            <img src="./li2.jpg">
-          </li>
-          <li class="list-item">
-            <img src="./li3.jpg">
-          </li>
-          <li class="list-item">
-            <img src="./li04.jpg">
-          </li>
-          <li class="list-item">
-            <img src="./li5.jpg">
-          </li>
-          <li class="list-item">
-            <img src="./li6.jpg">
-          </li>
-          <li class="list-item">
-            <img src="./07.jpg">
-          </li>
-          <li class="list-item">
-            <img src="./li8.jpg">
-          </li>
-          <li class="list-item">
-            <img src="./li9.jpg">
-          </li>
-          <li class="list-item">
-            <img src="./li10.jpg">
-          </li>
-        </ul>
-      </div>
-      <div class="xline-wrap"><!---->
-        <div class="xline">
-          <div class="page-line">
+    <!--{{datas}}-->
+    <div class="main_out_wrap" ref="scrollWrap">
+      <div class="main-wrap">
+        <div class="swipe-wrap">
+          <mt-swipe :auto="2000">
+            <mt-swipe-item><img src="./001.jpg"></mt-swipe-item>
+            <mt-swipe-item><img src="./002.jpg"></mt-swipe-item>
+            <mt-swipe-item><img src="./003.jpg"></mt-swipe-item>
+            <mt-swipe-item><img src="./004.jpg"></mt-swipe-item>
+            <mt-swipe-item><img src="./005.jpg"></mt-swipe-item>
+            <mt-swipe-item><img src="./006.jpg"></mt-swipe-item>
+          </mt-swipe>
+        </div>
+        <div class="banner_item"><!----> <!----></div>
+        <div class="list-wrap">
+          <ul class="list">
+            <li class="list-item">
+              <img src="./echongtuan.jpg">
+            </li>
+            <li class="list-item">
+              <img src="./li2.jpg">
+            </li>
+            <li class="list-item">
+              <img src="./li3.jpg">
+            </li>
+            <li class="list-item">
+              <img src="./li04.jpg">
+            </li>
+            <li class="list-item">
+              <img src="./li5.jpg">
+            </li>
+            <li class="list-item">
+              <img src="./li6.jpg">
+            </li>
+            <li class="list-item">
+              <img src="./07.jpg">
+            </li>
+            <li class="list-item">
+              <img src="./li8.jpg">
+            </li>
+            <li class="list-item">
+              <img src="./li9.jpg">
+            </li>
+            <li class="list-item">
+              <img src="./li10.jpg">
+            </li>
+          </ul>
+        </div>
+        <div class="xline-wrap"><!---->
+          <div class="xline">
+            <div class="page-line">
 
-          </div>
-        </div> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
-      </div>
-      <div class="newUser-wrap">
-        <a href="#">
-          <img src="./newUser.gif">
-        </a>
-      </div>
-      <div class="surprise_day">
-        <div class="surprise_day_top">
-          <div class="everyday">
-            <img src="./suprice.png">
-            <div class="font1">
-              距本场结束
             </div>
-            <div class="time ftc fl ml5">
-              <div class="time1 dib clearfix ft12 dtime">
-                <span class="time1-1">01</span>
-                <span class="time-zi ft12">:</span>
-                <span class="time1-1">27</span>
-                <span class="time-zi ft12">:</span>
-                <span class="time1-1">22</span>
+          </div> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!----> <!---->
+        </div>
+        <div class="newUser-wrap">
+          <a href="#">
+            <img src="./newUser.gif">
+          </a>
+        </div>
+        <div class="surprise_day">
+          <div class="surprise_day_top">
+            <div class="everyday">
+              <img src="./suprice.png">
+              <div class="font1">
+                距本场结束
+              </div>
+              <div class="time ftc fl ml5">
+                <div class="time1 dib clearfix ft12 dtime">
+                  <span class="time1-1">01</span>
+                  <span class="time-zi ft12">:</span>
+                  <span class="time1-1">27</span>
+                  <span class="time-zi ft12">:</span>
+                  <span class="time1-1">22</span>
+                </div>
+              </div>
+              <div class="more">
+                <a href="#">
+                  <img src="./more.jpg">
+                </a>
               </div>
             </div>
-            <div class="more">
-              <a href="#">
-                <img src="./more.jpg">
-              </a>
-            </div>
           </div>
-        </div>
-        <div class="surprise_day_bottom">
-          <div class="swiper-container">
+          <div class="surprise_day_bottom">
+            <div class="swiper-container">
               <ul class="swiper-wrapper">
                 <div class="swiper-wrapper2">
                   <a href="#">
@@ -171,49 +172,51 @@
                   </a>
                 </div>
               </ul>
-          </div>
-        </div>
-      </div>
-      <div class="mask">
-        <div class="mask_wrap">
-          <div class="mask_main_wrap">
-            <div class="mask_main">
-              <p class="dog">
-                DOG
-                <b>_</b>
-                <span>亲爱的小主</span>
-              </p>
-              <p class="welcome">您即将进入
-                <span>狗狗站</span>
-              </p>
-              <ul class="change_ul">
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-            </div>
-            <div class="mask_footer">
-              <a href="#">
-                <img src="./close2.png">
-              </a>
             </div>
           </div>
-
         </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+        <div class="mask">
+          <div class="mask_wrap">
+            <div class="mask_main_wrap">
+              <div class="mask_main">
+                <p class="dog">
+                  DOG
+                  <b>_</b>
+                  <span>亲爱的小主</span>
+                </p>
+                <p class="welcome">您即将进入
+                  <span>狗狗站</span>
+                </p>
+                <ul class="change_ul">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="mask_footer">
+                <a href="#">
+                  <img src="./close2.png">
+                </a>
+              </div>
+            </div>
 
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+      </div>
     </div>
+
   </div>
 
 
@@ -221,16 +224,28 @@
 
 <script>
   import header from '../../components/header/header.vue'
+  import BScroll from 'better-scroll'
+
   import {mapState} from 'vuex'
+
   export default {
     components: {
       'pet-header':header,
     },
     mounted(){
-      this.$store.dispatch('requestDatas')
+      this.$store.dispatch('requestMenus',() => {
+        this.$nextTick(() =>{
+          this._initScroll
+        })
+      })
+    },
+    methods:{
+      _initScroll(){
+        new BScroll(this.$refs.scrollWrap)
+      }
     },
     computed:{
-      ...mapState(['datas'])
+      ...mapState(['menus'])
     }
   }
 
