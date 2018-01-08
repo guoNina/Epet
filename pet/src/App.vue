@@ -40,7 +40,7 @@
           const result = response.data
           console.log('vue-resource',result);
         })*/
-/*      axios.$http.get('./api2/menus')
+      /*axios.$http.get('./api2/datas')
         .then(response => {
           const result = response.data
           console.log('axios',result);

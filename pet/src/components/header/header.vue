@@ -46,7 +46,7 @@
                 <a href="#"><!---->
                   <span class="rela">
                     <span>{{menu.menu_name}}</span>
-                    <i></i>
+                     <!--<i></i>-->
                   </span>
                 </a>
               </li>
@@ -61,7 +61,10 @@
 
 <script>
   import {mapState} from 'vuex'
+
   export default {
+    component:{
+    },
     mounted(){
       this.$store.dispatch('requestMenus')
     },
@@ -76,10 +79,12 @@
 <style lang="stylus" rel="stylesheet/stylus">
   .header
     position fixed
-      top:0
-      left:0
+    top:0
+    left:0
     width: 375px
     overflow hidden
+    z-index:200;
+    background: #fff;
     .wrap
       /*position relative*/
       .overflow
@@ -137,8 +142,6 @@
               width: 100%;
               height: 35px;
               min-width: 320px;
-
-
     .outWrap
       overflow: hidden
       padding: 10px 5px
@@ -182,8 +185,6 @@
             text-indent: 10px;
             font-size: 13px;
             outline: 0;
-
-
       a
         display: block
         img
@@ -202,6 +203,7 @@
           white-space: nowrap;
           display: flex;
           list-style: none;
+
           li
             width: 25%;
             float: left;
@@ -214,11 +216,8 @@
               font-size: 14px;
               text-align: center;
               color: #666;
-
-
               .rela
                 position: relative;
-                color: #459d36;
                 display: inline-block;
                 i
                   position: absolute;

@@ -8,5 +8,9 @@ Mock.mock('/api2/menus',{
 })
 Mock.mock('/api2/datas',{
   code:0,
-  data:data.datas
+  data:data.datas[0].value
 })
+// Mock.mock('/api2/datas2',{
+//   code:0,
+//   data:data.datas2[2].menus
+// })
